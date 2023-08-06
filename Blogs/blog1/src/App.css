@@ -1,0 +1,62 @@
+#App{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.headerHolder{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headerNavbarHolder{
+    background-color: rgb(57, 218, 57);
+    font-weight: bold;
+}
+.headerNavbarItemHolder{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.headerNavbarItemHolder li{
+    margin: 10px;
+}
+.headerNavbarItemHolder a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.blogSectionHolder{
+    display: flex;
+}
+.blogContentHolder{
+    margin: 0.5%;
+    padding: 0.2% 1% 0.2% 1%;
+    background-color: whitesmoke;
+}
+.citedContent{
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+.articleHeaderHolder{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nosocialdistancing{
+    margin: 0;
+    padding: 0;
+}
+.adHolder{
+    background-color: red;
+    border: 1px solid;
+    margin: 10px;
+}
+.verticalAd{
+    padding: 10px 70px 100% 70px;
+}
+.horizontalAd{
+    padding: 10px 50% 10px 50%;
+}
+.blogContentFooter, .blogContentFooter a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+

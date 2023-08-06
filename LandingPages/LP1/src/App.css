@@ -1,0 +1,75 @@
+.App{
+  margin: 0%;
+  padding: 0%;
+  border: 1px solid black;
+  background-color: antiquewhite;
+}
+.titleHold{
+  text-align: center;
+}
+.navBar{
+  background-color: aquamarine;
+  padding: 0.25%;
+}
+.navBarHold{
+  display: flex;
+  justify-content: center;
+}
+.navbarItem{
+  padding: 0% 2% 0% 2%;
+  list-style-type: none;
+  font-weight: bold;
+}
+.noUnder-{
+  text-decoration: none;
+  color: black;
+}
+.productInventoryHold{
+  padding: 1.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1%;
+}
+.productHold{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 1px solid darkgrey;
+  background-color: lightgray;
+  padding: 1%;
+}
+.productTitle{
+  color: darksalmon;
+  font-style: italic;
+  padding: 0%;
+  margin: 0%;
+}
+.productImage{
+  background-color: lightcoral;
+  margin: 0%;
+  padding: 0%;
+  height: 200px;
+}
+.productDescription{
+  margin: 0.5%;
+  padding: 0%;
+}
+.productFooter{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1%;
+  margin: 0%;
+  padding: 0%;
+}
+.productPrice{
+  color: green;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0%;
+}
+.footerCredits, .footerCredits h6, .footerCredits a{
+  margin: 0%;
+  padding: 0.1%;
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
